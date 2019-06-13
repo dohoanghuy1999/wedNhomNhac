@@ -37,7 +37,7 @@
   - Chúng ta có thể xem Bảng xếp hạng của nhóm và chỉnh sửa(vd như: Cập nhật bài hát mới của nhóm,Xóa bài hát đã quá cũ,...)<br>
   + cập nhật:(điền tên bài hát mới cần cập nhật rối nhấn INSERT)
  
-  ![img](8.PNG)
+  ![img](.PNG)
   
   
   
