@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Style/style.css" rel="stylesheet" />
+    <script src="../Scripts/modernizr-2.6.2.js"></script>--%>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="PageWrapper">
+            <header>
+                <h1><a class="auto-style1"><strong>WELCOME TO ARMY WORLD</strong></a></h1>
+            </header>
+
+            <nav>
+
+               
+          <asp:Menu ID="Menu1" runat="server" CssClass="Mainmenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+               
+                 <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource2" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged" ShowExpandCollapse="False"> 
+                     <LevelStyles>
+                         <asp:TreeNodeStyle CssClass="FirstLevelMenuItems" />
+                     </LevelStyles>
+                 </asp:TreeView>
+                 
+                <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" />
+                 
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            </nav>
+            <section id="MainContent">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+            <aside id="Sidebar">
+                Thay đổi nền:<br/>
+                <asp:DropDownList ID="ThemeList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged1">
+                    <asp:ListItem>Monochrome</asp:ListItem>
+                    <asp:ListItem>DarkGrey</asp:ListItem>
+                </asp:DropDownList>
+                <img src="Images/anh18.gif" width="100%" />
+            </aside>
+        </div>
+    </form>
+            <footer>
+      <p>liên hệ nếu thích: 0825431576-Huy's Milk's hoặc qua <img src='https://www.facebook.com/images/fb_icon_325x325.png' width=30 height=30></p>
+    </footer>
+        </body>
+</html>

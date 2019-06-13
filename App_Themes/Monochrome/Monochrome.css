@@ -1,0 +1,309 @@
+﻿*
+{
+  /* 
+    Defines the main font used throughout the entire site.
+  */
+  font-family: Verdana, Arial, Sans-Serif;
+}
+form #form1 {
+    width:100%;
+    height:auto;
+}
+
+body
+{
+  /* 
+    Clears white space around the body and sets the background color to a dark grey.
+  */
+  margin: 0;
+  background-color: #8470FF;
+  background:#8470FF;
+}
+#hello {
+    color:yellow;
+}
+
+
+a
+{
+  /*
+    Clears the underline on normal links, and gives them #FE601A (orange) as the text color.
+  */
+  color: white;
+  text-decoration: none;
+}
+
+  a:hover
+  {
+    color:aqua;
+    text-decoration: underline;
+  }
+
+  .MainMenu ul.level1
+ 
+{
+ 
+/* Định dạng các menu cấp 1 như Home, Reviews, About, Login */
+ 
+font-size: 14px;
+ 
+font-weight: bold;
+ 
+height: 19px;
+ 
+line-height: 19px;
+background-color:red;
+ 
+}
+p #ds {
+    border:solid;
+}
+ 
+.MainMenu ul.level1 .selected
+ 
+{
+ 
+/* Khi các menu cấp 1 kích hoạt (hay chế độ active) */
+ 
+background-color: #509EE7;
+border:solid;
+ 
+}
+ .MainMenu ul li
+  {
+    /*
+    Gives the four menu items in the main menu a width of 200px each.
+  */
+    width: 160px;
+  }
+.MainMenu
+{
+  /*
+    The Menu gets a white border on all four sides.
+  */
+  border: 1px solid #999999;
+  width: 814px;
+  height: 19px;
+  background-color: #555555;
+}
+
+.MainMenu a {
+    color:red;
+}
+.MainMenu a.level1
+ 
+{
+ 
+/* Thêm các khoảng trống bên trái các mục menu*/
+
+padding-left: 5px !important;
+ 
+}
+ 
+.MainMenu a.level1
+ 
+{
+ 
+/* Định dạng cho các menu cấp 2 như By Genre, All Reviews,... */
+ 
+background-color: black;
+ 
+padding-left: 8px;
+ 
+}
+ 
+.MainMenu a.level1:hover, a.level2:hover
+ 
+{
+ 
+/* Màu nền của các menu (cấp 1 và 2) khi hover */
+ 
+background-color: #509EE7;
+background:pink;
+ 
+}
+
+h1
+{
+  
+  font-size: 20px;
+}
+
+header
+{
+  /*
+    Sets the background of the header to the same color as the right-hand side of the 
+    header image. This way, the header can expand to the right.
+    The margin at the bottom creates some room between the header and the menu and the main content.
+  */
+  background-color: pink;
+  margin-top:20px;
+  
+}
+#ds {
+    color:red;
+}
+
+  header a
+  {
+    /*
+    The header a is nested in the header. It provides a link to the homepage,
+    and sets the header image background.
+  */
+    background-image: url(Images/anh1.jng);
+    text-align:center;
+    width: 100%;
+    height: 50px;
+    display: block;
+    
+     margin-bottom:20px;
+    
+    
+  }
+    header a strong {
+        color:red;
+        margin:auto;
+    }
+
+    
+nav
+{
+  
+  width: 100%;
+  margin:auto;
+  padding: 10px;
+  padding-top: 0;
+  background-color: black;
+  display:block;
+  font-size: 1em;
+}
+#Menu1 {
+    
+}
+
+.FirstLevelMenuItems
+{
+  padding-top: 10px;
+}
+
+section#MainContent
+{
+  /*
+    Defines the main content area. The text color is white (on the gray background set on the body).
+    The #MainContent section element has a minimum height of 370 pixels, but can grow if necessary.
+    The font-size is 80% of its parent element, which in this case comes down to 80% of the font
+    the user has specified as the default font in the browser.
+  */
+  color: white;
+  font-size: 0.8em;
+  width: 600px;
+  min-height: 370px;
+  padding: 10px;
+  float: left;
+  position: relative;
+  left: 550px;
+
+}
+
+aside#Sidebar
+{
+  /*
+    The Sidebar is positioned absolutely at the right of the page.
+    It has the same font-size and color as #MainContent
+  */
+  font-size: 0.8em;
+  width: 100px;
+  color: White;
+  float: right;
+  padding-top: 20px;
+ 
+}
+
+footer
+{
+  /*
+    The footer is positioned below all other content.
+    At the top, it gets a border with a dashed style, while all other sides have no border.
+	  The line-height centers the text in the footer vertically.
+  */
+  text-align: center;
+  border-top: 2px dashed gray;
+  height: 37px;
+  line-height: 37px;
+  clear: both;
+  background-color: #FCBB5B;
+  font-size:10px;
+}
+
+.Introduction
+{
+  font-style: italic;
+}
+img { border: 0; }
+
+.ErrorMessage {
+    color : violet;
+}
+
+.AJAX {
+    height: 50px;
+    width: 500px;
+    background-image: url(Images/anh1.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;   
+    line-height: 32px;
+}
+
+.Attention {
+    border: 4px solid red;
+    padding: 10px 0;
+    width: 100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.ItemContainer
+ 
+{
+ 
+width: 400px;
+ 
+list-style-type: none;
+ 
+clear: both;
+ 
+}
+ 
+.ItemContainer li
+ 
+{
+ 
+height: 300px;
+ 
+width: 200px;
+ 
+float: left;
+ 
+}
+ 
+.ItemContainer li img
+ 
+{
+ 
+width: 180px;
+ 
+margin: 10px 20px 10px
+ 
+}
+#Menu1 a {
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    color: white;
+    margin-left: 20px;
+}
+.auto-style2 {
+    width: auto;
+    height: auto;
+}
