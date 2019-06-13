@@ -35,9 +35,16 @@
   ![img](9.PNG)
   
   - Chúng ta có thể xem Bảng xếp hạng của nhóm và chỉnh sửa(vd như: Cập nhật bài hát mới của nhóm,Xóa bài hát đã quá cũ,...)<br>
-  + cập nhật:(điền tên bài hát mới cần cập nhật rối nhấn INSERT)
+  + cập nhật(Điền tên bài hát mới cần cập nhật rối nhấn INSERT)
+  + Xóa Bài hát(Điền tên bài hát cần xóa rồi nhấn DELETE)
  
-  ![img](.PNG)
+  ![img](8.PNG)
+  
+  - Đó là tất cả các thông tin bạn cần biết khi đăng nhập vào web đặc biệt dành cho ARMY!!!
+  - Các bạn còn chần chừ gì nữa? Đăng nhập vào cày view cho nhóm nào!!!</h3><br>
+  <h2>"Hãy Thể Hiện Mình Là 1 ARMY Chân Chính Nào!!!"</h2>
+  
+  
   
   
   
